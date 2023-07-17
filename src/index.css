@@ -30,5 +30,12 @@ body {
   background: white;
 }
 
-
+.shape {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: -50px
+}
 
