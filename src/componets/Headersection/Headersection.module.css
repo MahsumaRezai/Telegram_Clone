@@ -11,14 +11,15 @@
     
 }
 .content{
-    background: white;
     margin: 5px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-content: center;
-    gap: 20px
-    
+    gap: 20px;
+    border-top: 1px solid gainsboro;   
+    border-bottom: 1px solid gainsboro;    
+
 }
 .text {
  padding-top:10px
