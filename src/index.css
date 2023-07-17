@@ -24,7 +24,10 @@ body {
   margin: 0%;
   gap: 0;
 
-
+}
+.btn{
+  border: none;
+  background: white;
 }
 
 
