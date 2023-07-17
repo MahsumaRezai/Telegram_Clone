@@ -1,10 +1,12 @@
 import classes from  './Main.module.css';
+import { Fragment } from 'react';
 const Main = (props) => {
     return (
-        <section className={classes.main}>
-        <h1>hello</h1>
-
-        </section>
+        <Fragment>
+        <div className={classes.min}>
+        </div>
+      
+        </Fragment>
     )
 }
 export default Main;

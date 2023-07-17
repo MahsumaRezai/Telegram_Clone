@@ -1,9 +1,10 @@
- .main {
+ .min {
     background-image: url('../UI/background.PNG');
     width: 60%;
     background-repeat: no-repeat;
     height: 800px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 0;
  }
