@@ -3,9 +3,7 @@ import image2 from '../image/images2.jpg';
 import image3 from '../image/images3.jpg';
 import image4 from '../image/images4.jpg';
 import image5 from '../image/images5.jpg';
-
-
-
+import image6 from '../image/im.jpg'
 
 import classes from './Headersection.module.css'
 const Headersection = (props) => {
@@ -29,8 +27,8 @@ const Headersection = (props) => {
                     <img src={image2} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
-                    <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
+                    <span>cs class</span>
+                    <p className={classes.texttwo}>Do you have React project and I want it</p>
                 </div>
             </div>
 
@@ -40,8 +38,8 @@ const Headersection = (props) => {
                     <img src={image3} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
-                    <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
+                    <span> Borther</span>
+                    <p className={classes.texttwo}>Hey Masoumeh where is my phone?</p>
                 </div>
             </div>
 
@@ -51,33 +49,33 @@ const Headersection = (props) => {
                     <img src={image4} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
-                    <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
+                    <span>Father</span>
+                    <p className={classes.texttwo}>what is food for dinner?</p>
                 </div>
             </div>
 
-             <div className={classes.content}>
+            <div className={classes.content}>
                 <div >
                     <img src={image5} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
-                    <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
+                    <span>Monkia cs class</span>
+                    <p className={classes.texttwo}>I want css class do you have?</p>
                 </div>
             </div>
 
 
-             <div className={classes.content}>
+            <div className={classes.content}>
                 <div >
-                    <img src={image2} alt="imageone" className={classes.img} />
+                    <img src={image1} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
-                    <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
+                    <span>Teacher</span>
+                    <p className={classes.texttwo}>where is your plan?</p>
                 </div>
             </div>
 
-             <div className={classes.content}>
+            <div className={classes.content}>
                 <div >
                     <img src={image2} alt="imageone" className={classes.img} />
                 </div>
@@ -90,7 +88,7 @@ const Headersection = (props) => {
 
             <div className={classes.content}>
                 <div >
-                    <img src={image2} alt="imageone" className={classes.img} />
+                    <img src={image6} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
                     <span>Sara Rezai</span>
@@ -98,12 +96,12 @@ const Headersection = (props) => {
                 </div>
             </div>
 
-             <div className={classes.content}>
+            <div className={classes.content}>
                 <div >
                     <img src={image2} alt="imageone" className={classes.img} />
                 </div>
                 <div className={classes.text}>
-                    <span>Sara Rezai</span>
+                    <span>Asal</span>
                     <p className={classes.texttwo}>Hello Masoumeh who are you?</p>
                 </div>
             </div>
