@@ -4,7 +4,10 @@ import Main from "./componets/UI/Main.js";
 const App = () => {
   return (
     <Fragment>
-      <Main />
+      <div className="main">
+        <Main />
+      </div>
+
     </Fragment>
   )
 }
