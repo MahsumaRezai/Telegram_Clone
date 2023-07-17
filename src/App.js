@@ -1,6 +1,11 @@
+import { Fragment } from "react";
+import Main from "./componets/UI/Main";
+
 const App = () => {
   return (
-    <h1>hi</h1>
+    <Fragment>
+      <Main/>
+    </Fragment>
   )
 }
 export default App
