@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Main from "./componets/UI/Main";
+import Main from "./componets/UI/Main.js";
 
 const App = () => {
   return (
     <Fragment>
-      <Main/>
+      <Main />
     </Fragment>
   )
 }

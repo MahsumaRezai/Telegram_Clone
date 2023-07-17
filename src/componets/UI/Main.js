@@ -1,9 +1,7 @@
-import background from '../Header/image/background'
-
+import classes from  './Main.module.css';
 const Main = () => {
     return (
-        <section>
-            {background}
+        <section className={classes.main}>
 
         </section>
     )
