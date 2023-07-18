@@ -10,7 +10,7 @@ const Shapes = () => {
                     <img src={imga2} alt="smoe" />
 
                 </button>
-                <button className="btn">
+                <button className="btn" type="submit">
                     <img src={imag1} alt="yes" />
 
                 </button>
