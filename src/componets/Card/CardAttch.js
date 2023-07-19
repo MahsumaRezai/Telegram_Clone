@@ -7,7 +7,12 @@ const CardAttch = (props) => {
             <div className={classes.card}>
                 {props.children}
                 <button onClick={props.onClose} className="btn">
-                    <h1>Hello</h1>
+                    <div className={classes.text}>
+                        <h1>Hello</h1>
+                        <p className={classes.para}>I am Masoumeh Rezai and who are you?</p>
+                    </div>
+
+
 
                 </button>
 

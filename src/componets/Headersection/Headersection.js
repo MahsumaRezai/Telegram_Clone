@@ -6,17 +6,13 @@ import image5 from '../image/images5.jpg';
 import image6 from '../image/im.jpg'
 import classes from './Headersection.module.css'
 import { Fragment } from 'react';
-import Input from '../Input/input'
 const Headersection = (props) => {
     return (
         <Fragment>
 
             <div className={classes.containre}>
                 {props.children}
-                <div className={classes.input}>
-                    <Input />
-                </div>
-
+            
                 <div className={classes.content}>
                     <div >
                         <img src={image1} alt="imageone" className={classes.img} />

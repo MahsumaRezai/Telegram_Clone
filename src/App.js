@@ -13,13 +13,20 @@ const App = () => {
     const hideCartHandler = () => {
         setCartIsShow(false)
     }
+    const [cartIsShowatt, setCartIsShowatt] = useState(false);
+    const showCartHandleratt = () => {
+        setCartIsShowatt(true)
+    }
+    const hideCartHandleratt = () => {
+        setCartIsShowatt(false)
+    }
     return (
         <Fragment>
             {cartIsShow && <Card onClose={hideCartHandler} />}
-            {cartIsShow && <CardAttch onClose={hideCartHandler} />}
+            {cartIsShowatt && <CardAttch onClose={hideCartHandleratt} />}
             <div className="main">
                 <Main />
-                <Footer onShowCart={showCartHandler} />
+                <Footer onShowCart={showCartHandler} onShowCartatt={showCartHandleratt} />
             </div>
             <div className="head">
                 <Head />

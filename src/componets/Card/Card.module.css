@@ -5,3 +5,14 @@
     align-items: center;
     margin:auto
 }
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .para{
+      font-size: 15px;
+  }

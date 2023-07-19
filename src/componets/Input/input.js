@@ -1,8 +1,10 @@
-const Input=(props)=>{
-    return(
+import classes from './Input.module.css'
+const Input = (props) => {
+    return (
         <div>
-        <input placeholder="Search"></input>
-            </div>
+            {props.childern}
+            <input placeholder="Search" className={classes.input}></input>
+        </div>
     )
 }
-export default Input ;
+export default Input;
