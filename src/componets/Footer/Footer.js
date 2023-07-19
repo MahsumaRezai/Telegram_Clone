@@ -9,9 +9,11 @@ const Footer = (props) => {
     const formHandler = (event) => {
         event.preventDefault();
         console.log(input);
+        setinput('')
     }
     const inputHanlder = (event) => {
         setinput(event.target.value);
+
     }
 
     return (
@@ -22,7 +24,7 @@ const Footer = (props) => {
 
                     <form onSubmit={formHandler}>
                         <div className={classes.form}>
-                            <input onChange={inputHanlder} />
+                            <input onChange={inputHanlder} className="input" />
                             <Button />
                         </div>
                     </form>
