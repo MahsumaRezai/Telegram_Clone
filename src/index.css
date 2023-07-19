@@ -32,6 +32,15 @@ span{
   background: white;
 }
 
+.btnone{
+  border: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
 .shape {
   display: flex;
   flex-direction: row;
