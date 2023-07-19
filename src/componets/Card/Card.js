@@ -7,10 +7,10 @@ const Card = (props) => {
 
             <div className={classes.card}>
                 {props.children}
-                <div>
+                <button onClick={props.onClose} className="btn">
                     <img src={img} alt="hello" />
 
-                </div>
+                </button>
 
             </div>
         </Modal>

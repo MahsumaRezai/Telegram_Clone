@@ -11,7 +11,7 @@ const Footer = (props) => {
                     <Footerattch />
                 </div>
                 <div>
-                    <Shapes />
+                    <Shapes onClick={props.onShowCart} />
                 </div>
             </div>
 
