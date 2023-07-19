@@ -1,13 +1,18 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import classes from './Footer.module.css';
 import Footerattch from "../FooterAttch/Footerattch";
 import Shapes from "../Shape/Shapes";
 
 const Footer = (props) => {
-    //const [input, setinput] = useState('');
+    const [input, setinput] = useState('');
     const formHandler = (event) => {
+        event.preventDefault();
+        console.log(input);
 
 
+    }
+    const inputHanlder = (event) => {
+        setinput(event.target.value);
     }
 
     return (
@@ -19,7 +24,7 @@ const Footer = (props) => {
                     <Footerattch onClick={props.onShowCartatt} />
 
                     <form onSubmit={formHandler}>
-                        <input />
+                        <input onChange={inputHanlder} />
                     </form>
                 </div>
                 <div>
