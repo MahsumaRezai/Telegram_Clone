@@ -6,8 +6,8 @@ const Shapes = (props) => {
     return (
         <Fragment>
             <div className="shape">
-                <button className="btn">
-                    <img src={imga2} alt="smoe" onClick={props.onClick} />
+                <button className="btn" onClick={props.onClick}>
+                    <img src={imga2} alt="smoe"  />
 
                 </button>
                 <button className="btn" type="submit">

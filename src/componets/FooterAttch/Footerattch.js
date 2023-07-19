@@ -6,7 +6,7 @@ const Footerattch = (props) => {
     return (
         <Fragment>
             {props.children}
-            <button className='btn'>
+            <button className='btn' onClick={props.onClick} >
                 <img src={img} alt="" />
 
             </button>

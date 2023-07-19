@@ -8,7 +8,7 @@ const Footer = (props) => {
         <Fragment>
             <div className={classes.footer}>
                 <div className={classes.attch}>
-                    <Footerattch />
+                    <Footerattch onClick={props.onShowCart} />
                 </div>
                 <div>
                     <Shapes onClick={props.onShowCart} />

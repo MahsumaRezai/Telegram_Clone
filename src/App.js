@@ -3,6 +3,7 @@ import Main from "./componets/UI/Main.js";
 import Footer from "./componets/Footer/Footer.js";
 import Head from "./componets/Header/Head.js";
 import Card from "./componets/Card/Card.js";
+import CardAttch from "./componets/Card/CardAttch.js";
 
 const App = () => {
     const [cartIsShow, setCartIsShow] = useState(false);
@@ -15,6 +16,7 @@ const App = () => {
     return (
         <Fragment>
             {cartIsShow && <Card onClose={hideCartHandler} />}
+            {cartIsShow && <CardAttch onClose={hideCartHandler} />}
             <div className="main">
                 <Main />
                 <Footer onShowCart={showCartHandler} />
